@@ -1,4 +1,6 @@
-1：需要先把doc里面的jce_policy-8解压出来放下面说的地方
+1:需要先把doc里面的jce_policy-8解压出来放下面说的地方
+2:异步返回通知需要使用内网穿透ngrok来生成这个ip和端口生成的域名，把这个域名填写在wxpay.properties文件的
+wxpay.notify-domain 这个参数
 
 
 
