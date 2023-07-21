@@ -112,6 +112,7 @@ public class WxPayServiceImpl implements WxPayService {
 
         //将参数转换成json字符串
         String jsonParams = gson.toJson(paramsMap);
+
         log.info("请求参数 ===> {}" + jsonParams);
 
         StringEntity entity = new StringEntity(jsonParams,"utf-8");
